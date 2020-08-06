@@ -88,7 +88,7 @@ As defined by the W3C:
 
 Parts:
 - root - the root of the dialog
-- positioning-region - ensuring the dialog is centered correctly requires a certain structure. Centering with absolute positioning can cause blurry content within the dialg itself. After investigating several implementations, the best and most common way of ensuring the dialog can be centered is to include a div to position the actual dialog itself using something like flexbox or css-grid. This ensures that the blurry content issue does not happen and the dialog centers easily within the screen.
+- positioning-region - ensuring the dialog is centered correctly requires a certain structure. Centering with absolute positioning can cause blurry content within the dialog itself. After investigating several implementations, the best and most common way of ensuring the dialog can be centered is to include a div to position the actual dialog itself using something like flexbox or css-grid. This ensures that the blurry content issue does not happen and the dialog centers easily within the screen.
 - modal-overlay - the modal overlay
 - content-region - the region where content is actually rendered. This part is where the `role="dialog"` will actually exist
 
@@ -114,7 +114,7 @@ Hidden - The dialog is hidden. This state is managed solely by the app author vi
 
 ### Accessibility
 
-The tree view should align to the interaction model provided by the W3C: https://w3c.github.io/aria-practices/#keyboard-interaction-7
+The dialog should align to the interaction model provided by the W3C: https://w3c.github.io/aria-practices/#keyboard-interaction-7
 
 ### Globalization
 

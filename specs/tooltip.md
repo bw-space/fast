@@ -30,7 +30,7 @@ Tooltip widgets do not receive focus. A hover that contains focusable elements c
 *Attributes:*
 - `anchor` - The html id of the HTMLElement which the tooltip is attached to.
 - `delay` - time in milliseconds to wait before showing and hiding the tooltip. Defaults to 300.
-- `visible` - the visiblity of the tooltip
+- `visible` - the visibility of the tooltip
 - `position` - enum; where the tooltip should appear relative to its target.
     - bottom
     - left
@@ -61,7 +61,7 @@ Tooltip widgets do not receive focus. A hover that contains focusable elements c
 
 ```
 <button id="foo" aria-describedby="tooltip">Foo</button>
-<fast-tooltip anchor="foo" id="tooltip">This is a tooltip. It does not recieve focus.</fast-tooltip>
+<fast-tooltip anchor="foo" id="tooltip">This is a tooltip. It does not receive focus.</fast-tooltip>
 ```
 
 ### Accessibility
